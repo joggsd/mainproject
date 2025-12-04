@@ -5,9 +5,14 @@ import pandas as pd # CSV, Excel 데이터 처리
 
 class StudentManagerApp:
     def __init__(self, root):
-        pass
+        self.root = root
+        self.root.title("학생 관리 시스템")
+        self.root.geometry("600x420")
 
+        self.create_widgets()
 
+        
+       
     def create_widgets(self):
         pass 
 

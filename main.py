@@ -27,6 +27,9 @@ class StudentManagerApp:
         self.major_entry = ttk.Entry(input_frame)
         self.major_entry.grid(row=1, column=1, padx=5, pady=5)
 
+        # 추가 버튼
+        ttk.Button(input_frame, text="추가", command=self.add_student).grid(row=1, column=3, padx=5)
+
 
      
 
